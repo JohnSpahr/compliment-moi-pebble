@@ -90,7 +90,9 @@
         "You are worthwhile.",
         "You are appreciated, even if you don't realize it.",
         "Smile, it looks good on you!",
-        "You have a good nose."
+        "You have a good nose.",
+        "Believe in yourself",
+        "You have great ideas"
     ],
     "morning" : [
         "Good morning, sunshine!",
@@ -98,7 +100,23 @@
         "You are early today!",
         "You have the power to make this a good day.",
         "You can make it through today and then some!",
-        "You make everybody's day better."
+        "You make everybody's day better.",
+        "Have a good day!",
+        "Glad to see you!",
+        "You are going to have an awesome day.",
+        "You're going to do great today!",
+        "You look amazing this fine morning!",
+        "You make a good morning a great morning!",
+        "Top of the morning to you!",
+        "You can make this day an amazing one.",
+        "You're going to do great today!",
+        "You're going to be awesome today.",
+        "You can do it!",
+        "Have a wonderful day!",
+        "You should feel good about yourself today."
+        "Today is a new day.",
+        "I hope you have a most excellent day!",
+        "Looking good today!"
     ],
     "evening" : [
         "You made someone smile today, I know it.",
@@ -106,8 +124,21 @@
         "The day was better for your efforts.",
         "Looking forward to seeing you tomorrow!",
         "I hope you had a good day!",
-        "I hope you were happy today",
+        "I hope you were happy today.",
         "Today was worthwhile.",
-        "Tomorrow is a new day."
+        "Tomorrow is a new day.",
+        "You were awesome today.",
+        "Keep at it!",
+        "Don't give up.",
+        "You were totally rad today!",
+        "Good job today!",
+        "You did great today!",
+        "Tomorrow is going to be a great day.",
+        "You were super cool today!",
+        "You did your best today.",
+        "Thank you for being awesome today!",
+        "You made someone happy today, I'm sure of it!",
+        "You accomplished a lot today, even if you don't realize it.",
+        "Sleep tight!"
     ]
 }
