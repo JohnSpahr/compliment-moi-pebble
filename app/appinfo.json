@@ -1,0 +1,80 @@
+{
+  "appKeys": {},
+  "companyName": "John Spahr",
+  "longName": "Compliment Moi",
+  "resources": {
+    "media": [
+      {
+        "file": "images/menu_icon.png",
+        "menuIcon": true,
+        "name": "IMAGE_MENU_ICON",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/logo_splash.png",
+        "name": "IMAGE_LOGO_SPLASH",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/tile_splash.png",
+        "name": "IMAGE_TILE_SPLASH",
+        "type": "bitmap"
+      },
+      {
+        "file": "images/bigbrain.png",
+        "name": "IMAGE_BIG_BRAIN",
+        "type": "png"
+      },
+      {
+        "file": "images/start.png",
+        "name": "IMAGE_START",
+        "type": "png"
+      },
+      {
+        "file": "images/info.png",
+        "name": "IMAGE_INFO",
+        "type": "png"
+      },
+      {
+        "file": "images/refresh.png",
+        "name": "IMAGE_REFRESH",
+        "type": "png"
+      },
+      {
+        "file": "images/up.png",
+        "name": "IMAGE_UP",
+        "type": "png"
+      },
+      {
+        "file": "images/down.png",
+        "name": "IMAGE_DOWN",
+        "type": "png"
+      },
+      {
+        "file": "images/enabled.png",
+        "name": "IMAGE_ENABLED",
+        "type": "png"
+      },
+      {
+        "file": "images/disabled.png",
+        "name": "IMAGE_DISABLED",
+        "type": "png"
+      }
+    ]
+  },
+  "sdkVersion": "3",
+  "shortName": "Compliments",
+  "targetPlatforms": [
+    "aplite",
+    "basalt",
+    "chalk",
+    "diorite",
+    "emery"
+  ],
+  "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  }
+}
