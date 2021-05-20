@@ -7,9 +7,9 @@ Get a compliment and some encouragement from your Pebble smartwatch with this fu
 - When enabled, the all-new "Big Brain Mode" setting sometimes specifically tailors compliments to better match the current time of day.
 
 ### Screenshots
-![home](Screenshots/home.png)
-![compliment](Screenshots/compliment1.png)
-![compliment](Screenshots/compliment3.png)
+![home](Screenshots/color/home.png)
+![compliment](Screenshots/color/bigbrain.png)
+![compliment](Screenshots/color/compliment.png)
 
 ### Extras
 - Compliments list forked from [here](https://gist.github.com/bmatheny/59cd6b745f464bd5599e0d9ab924903c).
