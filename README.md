@@ -1,5 +1,5 @@
 # Compliment Moi for Pebble
-Get a compliment and some encouragement from your Pebble smartwatch with this fun little [Pebble.JS](https://github.com/pebble/pebblejs) app! Tested on a Pebble 301BL smartwatch running the latest firmware.
+Get a compliment and some encouragement from your Pebble smartwatch with this fun little [Pebble.JS](https://github.com/pebble/pebblejs) app! Tested on Pebble 301BL and Time smartwatches running the latest firmware.
 
 ### Features
 - Get a compliment or some words of encouragement!
