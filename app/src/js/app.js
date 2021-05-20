@@ -1,4 +1,5 @@
 var UI = require('ui');
+var Feature = require('platform/feature');
 var ajax = require('ajax');
 var complimentData = [];
 var bigBrain = false;
@@ -17,9 +18,10 @@ var homeCard = new UI.Card({
   body: 'Compliment Moi for Pebble',
   scrollable: false,
   action: {
+    backgroundColor: Feature.color('electric-ultramarine', 'black'),
     up: 'images/bigbrain.png',
     select: 'images/start.png',
-    down: 'images/info.png'
+    down: 'images/info.png',
   }
 });
 
@@ -28,6 +30,7 @@ var complimentCard = new UI.Card({
   title: "Voila!",
   scrollable: true,
   action: {
+    backgroundColor: Feature.color('orange', 'black'),
     up: 'images/up.png',
     select: 'images/refresh.png',
     down: 'images/down.png'
@@ -37,9 +40,10 @@ var complimentCard = new UI.Card({
 //info screen
 var infoCard = new UI.Card({
   title: 'App Info',
-  body: 'Version 1.0\n\nCreated by John Spahr\n\ntectrasystems.org\n\ngithub.com/johnspahr/compliment-moi-pebble\n\nThanks for trying out my first Pebble app!',
+  body: 'Version 1.2\n\nCreated by John Spahr\n\ntectrasystems.org\n\ngithub.com/johnspahr/compliment-moi-pebble\n\nThanks for trying out my first Pebble app!',
   scrollable: true,
   action: {
+    backgroundColor: Feature.color('vivid-violet', 'black'),
     up: 'images/up.png',
     down: 'images/down.png'
   }
@@ -51,6 +55,7 @@ var bigBrainCard = new UI.Card({
   body: 'When enabled, this setting sometimes specifically tailors compliments to better match the current time of day.',
   scrollable: true,
   action: {
+    backgroundColor: Feature.color('jazzberry-jam', 'black'),
     up: 'images/up.png',
     select: 'images/disabled.png',
     down: 'images/down.png'
