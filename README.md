@@ -13,3 +13,4 @@ Get a compliment and some encouragement from your Pebble smartwatch with this fu
 
 ### Extras
 - Compliments list forked from [here](https://gist.github.com/bmatheny/59cd6b745f464bd5599e0d9ab924903c).
+- Also check out my [new Pebble watch face](https://github.com/johnspahr/laptopmanface)!
