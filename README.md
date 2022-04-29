@@ -4,7 +4,7 @@ Get a compliment and some encouragement from your Pebble smartwatch with this fu
 ### Features
 - Get a compliment or some words of encouragement!
 - No need to update to the latest version of the app when new compliments are added! The [compliments.json](compliments.json) file that contains all the compliments is fetched whenever you run the app.
-- When enabled, the all-new "Big Brain Mode" setting sometimes specifically tailors compliments to better match the current time of day.
+- When enabled, the all-new "BigBrain Mode" setting sometimes specifically tailors compliments to better match the current time of day.
 
 ### Screenshots
 ![home](Screenshots/color/home.png)
