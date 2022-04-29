@@ -40,7 +40,7 @@ var complimentCard = new UI.Card({
 //info screen
 var infoCard = new UI.Card({
   title: 'App Info',
-  body: 'Version 1.2\n\nCreated by John Spahr\n\ntectrasystems.org\n\ngithub.com/johnspahr/compliment-moi-pebble\n\nThanks for trying out my first Pebble app!',
+  body: 'Version 1.3\n\nCreated by John Spahr\n\njohnspahr.org\n\ngithub.com/johnspahr/compliment-moi-pebble\n\nThanks for trying out my first Pebble app!',
   scrollable: true,
   action: {
     backgroundColor: Feature.color('vivid-violet', 'black'),
@@ -51,7 +51,7 @@ var infoCard = new UI.Card({
 
 //big brain mode settings screen
 var bigBrainCard = new UI.Card({
-  title: 'Big Brain Mode',
+  title: 'BigBrain Mode',
   body: 'When enabled, this setting sometimes specifically tailors compliments to better match the current time of day.',
   scrollable: true,
   action: {
@@ -60,7 +60,7 @@ var bigBrainCard = new UI.Card({
     select: 'images/disabled.png',
     down: 'images/down.png'
   }
-})
+});
 
 //show home screen
 homeCard.show();
@@ -71,7 +71,7 @@ homeCard.on('click', function(e) {
     case "up":
       //big brain mode
       bigBrainCard.show();
-      setupBigBrain()
+      setupBigBrain();
       break;
     case "select":
       //start
@@ -94,13 +94,13 @@ bigBrainCard.on('click', function(e) {
       bigBrain = true;
       localStorage.setItem('bigBrainMode', 1); //save setting
       bigBrainCard.action('select', 'images/enabled.png');
-      bigBrainCard.title("Big Brain Mode: Enabled");
+      bigBrainCard.title("BigBrain Mode: Enabled");
     } else {
       //disable big brain mode
       bigBrain = false;
       localStorage.setItem('bigBrainMode', 0); //save setting
       bigBrainCard.action('select', 'images/disabled.png');
-      bigBrainCard.title("Big Brain Mode: Disabled");
+      bigBrainCard.title("BigBrain Mode: Disabled");
     }
   }
 });
@@ -116,13 +116,13 @@ function setupBigBrain() {
   if (localStorage.getItem('bigBrainMode') == 1) {
     //if big brain mode is on...
     bigBrainCard.action('select', 'images/enabled.png');
-    bigBrainCard.title("Big Brain Mode: Enabled");
-    bigBrain = true
+    bigBrainCard.title("BigBrain Mode: Enabled");
+    bigBrain = true;
   } else {
     //if big brain mode is off...
     bigBrainCard.action('select', 'images/disabled.png');
-    bigBrainCard.title("Big Brain Mode: Disabled");
-    bigBrain = false
+    bigBrainCard.title("BigBrain Mode: Disabled");
+    bigBrain = false;
   }
 }
 
@@ -132,7 +132,7 @@ function loadCompliment() {
   var currentDate = new Date();
   var selectedList = complimentData.anytime;
   //25% chance of a big brain response if enabled...
-  if (localStorage.getItem('bigBrainMode') == 1 && Math.floor(Math.random() * 4) == 0) {
+  if (localStorage.getItem('bigBrainMode') == 1 && Math.floor(Math.random() * 4) === 0) {
     //check time if big brain mode is enabled and big brain response is picked
     if (currentDate.getHours() >= 5 && currentDate.getHours() <= 11) {
       //set to morning list if 5 AM or later and 11 AM or earlier
